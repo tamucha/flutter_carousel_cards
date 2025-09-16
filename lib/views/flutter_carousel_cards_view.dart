@@ -83,7 +83,6 @@ class _articleSlider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // padding: EdgeInsets.all(16),
       margin: EdgeInsets.symmetric(horizontal: 8),
       height: MediaQuery.of(context).size.height * 0.8,
       decoration: BoxDecoration(
@@ -98,7 +97,6 @@ class _articleSlider extends StatelessWidget {
           ),
         ],
       ),
-      // height: MediaQuery.of(context).size.height,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,

@@ -1,1 +1,3 @@
 # flutter_carousel_cards
+
+carousel_slider パッケージを用いたカルーセル式カードのサンプルコードです。
