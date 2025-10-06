@@ -40,6 +40,8 @@ final List<Map<String, String>> articleList = [
 ];
 
 class FlutterCarouselCardsView extends StatelessWidget {
+  const FlutterCarouselCardsView({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -76,9 +78,8 @@ class _articleSlider extends StatelessWidget {
   final String image;
   final String title;
   final String body;
-  final String? imageUrl;
 
-  _articleSlider(this.image, this.title, this.body, {super.key, this.imageUrl});
+  const _articleSlider(this.image, this.title, this.body);
 
   @override
   Widget build(BuildContext context) {
